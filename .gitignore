@@ -1,0 +1,15 @@
+*.pyc
+/datasets
+/results
+/notebooks/datasets
+/notebooks/results
+/notebooks/netdissect
+/notebooks/experiment
+/notebooks/unused
+__pycache__
+.DS_Store
+.__*
+.ipynb*
+.nfs*
+.*swp
+.idea
