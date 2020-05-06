@@ -1,7 +1,9 @@
 *.pyc
 /datasets
+/models
 /results
 /notebooks/datasets
+/notebooks/models
 /notebooks/results
 /notebooks/netdissect
 /notebooks/experiment
