@@ -9,7 +9,7 @@ git config filter.clean_ipynb.smudge cat
 git config filter.clean_ipynb.required true
 
 # Set up symlinks for the example notebooks
-# for DIRNAME in datasets results netdissect experiment
-# do
-#   ln -sfn ../${DIRNAME} .
-# done
+for DIRNAME in netdissect datasets models experiment
+do
+  ln -sfn ../${DIRNAME} .
+done
